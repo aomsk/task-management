@@ -1,0 +1,65 @@
+.card-task {
+  width: 500px;
+  padding: 1rem;
+  border: 1px solid gray;
+  border-radius: 20px;
+  margin: 0 0 1rem 0;
+}
+
+.card-task-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.card-task-body p {
+  font-weight: 600;
+}
+
+.card-task-icon {
+  display: flex;
+}
+
+.card-task-icon .btn {
+  margin: 0 0 0 15px;
+  cursor: pointer;
+}
+
+.btn:nth-child(1) {
+  color: #F1C40F;
+}
+
+.btn:nth-child(2) {
+  color: #E74C3C;
+}
+
+/* .card-task-icon button {
+  margin: 0 0 0 5px;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.btn-edit {
+  background-color: #F1C40F;
+  border: 1px solid #F1C40F;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn-delete {
+  background-color: #E74C3C;
+  border: 1px solid #E74C3C;
+  color: #fff;
+  cursor: pointer;
+} */
+
+@media only screen and (max-width: 500px) {
+  .card-task {
+    width: 90vw;
+    padding: 1rem;
+    border: 1px solid gray;
+    border-radius: 20px;
+    margin: 0 0 1rem 0;
+  }
+}

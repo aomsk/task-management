@@ -1,0 +1,27 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+  align-items: center;
+  height: 50px;
+}
+
+.theme-container {
+  /* padding: 0 20px; */
+}
+
+.theme-text {
+  font-weight: bold;
+}
+
+.theme-container .icon {
+  padding: 0 0 0 .7rem;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+  header {
+    padding: 0px 10px;
+  }
+}
